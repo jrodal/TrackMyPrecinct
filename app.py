@@ -6,7 +6,6 @@ Created on Tue Jul 20 18:13:09 2021
 @author: jocelyn
 """
 
-#/Users/jocelynrodal_1/opt/miniconda3/envs/geo_env/bin/python
 
 import streamlit as st
 import dill
