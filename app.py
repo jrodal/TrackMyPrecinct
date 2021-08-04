@@ -26,6 +26,7 @@ ny = dill.load(open('ny.pkd', 'rb'))
 nykillings = dill.load(open('nywithkillings.pkd', 'rb'))
 nyPrecincts = gpd.read_file('nypd_precincts.shp')
 nyPrecincts['precinct'] = nyPrecincts['precinct'].astype(int)
+#except KeyError: st.write(nyPrecincts['precinct'])
 
 location = None
 precinct = None
