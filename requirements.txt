@@ -102,8 +102,6 @@ QtPy==1.9.0
 requests
 Rtree
 s3transfer
-scikit-learn
-scipy
 Send2Trash
 Shapely
 simplejson
