@@ -1,3 +1,4 @@
+GDAL==3.3.1
 altair==4.1.0
 appnope==0.1.2
 argh
@@ -31,7 +32,6 @@ dill==0.3.4
 entrypoints
 et-xmlfile==1.0.1
 Fiona==1.8.20
-GDAL==3.3.1
 geopandas
 gitdb
 GitPython
