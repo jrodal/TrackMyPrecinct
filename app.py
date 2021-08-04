@@ -9,7 +9,6 @@ Created on Tue Jul 20 18:13:09 2021
 #/Users/jocelynrodal_1/opt/miniconda3/envs/geo_env/bin/python
 
 import streamlit as st
-import os
 import dill
 import pandas as pd
 import geopandas as gpd
@@ -24,7 +23,6 @@ from collections import defaultdict
 #use st.cache to speed things up
 
 #get dataframes
-os.chdir('/Users/jocelynrodal_1/Dropbox/coding/tdi/capstone/data')
 ny = dill.load(open('ny.pkd', 'rb'))
 nykillings = dill.load(open('nywithkillings.pkd', 'rb'))
 nyPrecincts = gpd.read_file('nypd_precincts.shp')
