@@ -1,5 +1,5 @@
 dill==0.3.4
-streamlit==0.85.1
+streamlit
 pandas==1.2.4
 urllib3==1.26.6
 simplejson==3.17.3
