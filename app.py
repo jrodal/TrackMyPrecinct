@@ -113,14 +113,14 @@ if precinct:
     
     pforce = bp.figure(title="Reported Use of Force Incidents", 
                        x_axis_type='datetime', 
-                       y_axis_label='Uses of Force per quarter')
+                       y_axis_label='Uses of Force per Quarter')
     pforce.line(x, yforce, legend_label=precinctname, line_color='red', line_width=1.5)
     pforce.line(x, y_avg_force, legend_label='NYPD Average', line_color='blue', line_width=1.5)
     pforce.y_range.start = 0
 
     pinjury = bp.figure(title="Civilian Injuries Reported from Police Encounters", 
                           x_axis_type='datetime', 
-                          y_axis_label='Injuries per quarter')
+                          y_axis_label='Injuries per Quarter')
     pinjury.line(x, yinjury, legend_label=precinctname, line_color='red', line_width=1.5)
     pinjury.line(x, y_avg_injury, legend_label='NYPD Average', line_color='blue', line_width=1.5)
     pinjury.y_range.start = 0
