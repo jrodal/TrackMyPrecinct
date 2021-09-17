@@ -4,6 +4,8 @@ Track My Precinct
 
 This app delivers localized information on police use of force in NYC's five boroughs. The goal is to allow residents to understand police violence on a neighborhood-by-neighborhood basis.
 
+http://trackmyprecinct.herokuapp.com/
+
 Author: Jocelyn Rodal
 
 Data Sources:
